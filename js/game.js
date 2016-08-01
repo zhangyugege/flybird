@@ -28,7 +28,7 @@ game.States.preload = function(){
         game.load.spritesheet('bird','assets/bird.png',34,24,3); //鸟
         game.load.image('btn','assets/start-button.png');  //按钮
         game.load.spritesheet('pipe','assets/pipes.png',54,320,2); //管道
-        game.load.bitmapFont('flappyfont', 'assets/fonts/flappyfont/flappyfont.png', 'assets/fonts/flappyfont/flappyfont.fnt');
+        game.load.bitmapFont('flappy_font', 'assets/fonts/flappyfont/flappyfont.png', 'assets/fonts/flappyfont/flappyfont.fnt');
         game.load.audio('fly_sound', 'assets/flap.wav');//飞翔的音效
         game.load.audio('score_sound', 'assets/score.wav');//得分的音效
         game.load.audio('hit_pipe_sound', 'assets/pipe-hit.wav'); //撞击管道的音效
@@ -80,7 +80,7 @@ game.States.play = function(){
         this.soundScore = game.add.sound('score_sound');
         this.soundHitPipe = game.add.sound('hit_pipe_sound');
         this.soundHitGround = game.add.sound('hit_ground_sound');
-        this.scoreText = game.add.bitmapText(game.world.centerX-20, 30, 'flappyfont', '0', 36);
+        this.scoreText = game.add.bitmapText(game.world.centerX-20, 30, 'flappy_font', '0', 36);
 
         this.readyText = game.add.image(game.width/2, 40, 'ready_text'); //get ready 文字
         this.playTip = game.add.image(game.width/2,300,'play_tip'); //提示点击
