@@ -29,10 +29,13 @@ flybird小游戏
 
 4. 游戏教程
 -------
+
  啊哈 phaser制作小游戏flappy bird（1）：
 *http://blog.csdn.net/u014787301/article/details/47059137*
+
  啊哈 phaser制作小游戏flappy bird（2）：
 *http://blog.csdn.net/u014787301/article/details/47059373*
+
 
 5 联系方式
 -------
